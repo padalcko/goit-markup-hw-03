@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="header">
+    
+        <a class="logo" href="./index.html"><span class="blue-logo">Web</span>Studio</a>
+    
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Студия</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link current" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <ul class="header-contacts">
+            <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+    </header>
+
+    <!-- MAIN -->
+     <section class="portfolio">
+     <h1 class="portfolio-title">
+        Пример работы
+     </h1>
+
+     <ul class="button-list">
+         <li class="button-item"><button class="portfolio-button" type="button">Все</button></li>
+         <li class="button-item"><button class="portfolio-button" type="button">Веб-сайты</button></li>
+         <li class="button-item"><button class="portfolio-button" type="button">Приложения</button></li>
+         <li class="button-item"><button class="portfolio-button" type="button">Дизайн</button></li>
+         <li class="button-item"><button class="portfolio-button" type="button">Маркетинг</button></li>
+     </ul>
+
+     <ul class="portfolio-list">
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio1.jpg" alt="Изображение веб страницы" width="370" height="294">
+            <h2 class="portfolio-img-title">Технокряк</h2>
+            <p class="portfolio-img-text">Веб-сайт</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio2.jpg" alt="Дизайн постера игроков баскетбола" width="370" height="294">
+            <h2 class="portfolio-img-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-img-text">Дизайн</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio3.jpg" alt="Логотип ресторана морских блюд" width="370" height="294">
+            <h2 class="portfolio-img-title">Ресторан Seafood</h2>
+            <p class="portfolio-img-text">Приложение</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio4.jpg" alt="Изображение наушников" width="370" height="294">
+            <h2 class="portfolio-img-title">Проект Prime</h2>
+            <p class="portfolio-img-text">Маркетинг</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio5.jpg" alt="Изображение коробок" width="370" height="294">
+            <h2 class="portfolio-img-title">Проект Boxes</h2>
+            <p class="portfolio-img-text">Приложение</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio6.jpg" alt="Изображение веб страницы" width="370" height="294">
+            <h2 class="portfolio-img-title">Inspiration has no Borders</h2>
+            <p class="portfolio-img-text">Веб-сайт</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio7.jpg" alt="Изображение дизайна книги" width="370" height="294">
+            <h2 class="portfolio-img-title">Издание Limited Edition</h2>
+            <p class="portfolio-img-text">Дизайн</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio8.jpg" alt="Изображение логотипа фирмы" width="370" height="294">
+            <h2 class="portfolio-img-title">Проект LAB</h2>
+            <p class="portfolio-img-text">Маркетинг</p>
+        </li>
+        <li class="portfolio-item">
+            <img class="portfolio-img" src="./img/portfolio9.jpg" alt="Изображение сайта фирмы" width="370" height="294">
+            <h2 class="portfolio-img-title">Growing Business</h2>
+            <p class="portfolio-img-text">Приложение</p>
+        </li>
+        
+     </ul>
+    </section>
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <a class="logo-footer" href="./index.html"><span class="blue-logo">Web</span>Studio</a>
+    
+        <address class="adress">
+            <ul class="adress-list">
+                <li class="adress-item">
+                    <a class="adress-map-link" href="https://goo.gl/maps/Q4YNYFW12hLxptSDA" target="_blank"
+                        rel="noopener noreferrer">г. Киев,
+                        пр-т Леси
+                        Украинки, 26</a>
+                </li>
+                <li class="adress-item">
+                    <a class="adress-mail" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="adress-item">
+                    <a class="adress-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+    
+    </body>
+    
+    </html>
