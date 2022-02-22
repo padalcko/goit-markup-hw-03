@@ -187,15 +187,24 @@ a {
 }
 
 .advantage-title {
+}
+
+.hidden-title {
   visibility: hidden;
 }
 
 .advantage-list {
   display: flex;
-  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 .advantage-item {
+  margin-right: 30px;
+}
+.advantage-item:last-child {
+  margin: 0px;
 }
 
 .advantage-title-list {
@@ -213,26 +222,32 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-  margin-right: 30px;
 }
 
-.abaut {
+.about {
 }
 
-.abaut-title {
+.about-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
+  margin-bottom: 50px;
+  text-align: center;
 }
 
-.abaut-list {
+.about-list {
+  display: flex;
 }
 
-.abaut-item {
+.about-item {
+  margin-right: 30px;
 }
 
+.about-item:last-child {
+  margin: 0px;
+}
 .team {
   background-color: #f5f4fa;
 }
@@ -243,9 +258,20 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
 }
 
 .team-list {
+  margin-right: 30px;
+}
+
+.team-list:last-child {
+  margin: 0px;
 }
 
 .team-item {
@@ -254,6 +280,10 @@ a {
 .team-img {
 }
 
+.team-item-text {
+  padding: 30px 0;
+  text-align: center;
+}
 .team-img-title {
   font-weight: 500;
   font-size: 16px;

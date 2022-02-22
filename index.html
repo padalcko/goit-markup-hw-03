@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <!-- Normalize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,7 +68,7 @@
         <section class="advantage section">
             <div class="container">
 
-            <h2 class="advatage-title">Наши качества</h2>
+            <h2 class="advatage-title hidden-title">Наши качества</h2>
 
             <ul class="advantage-list">
 
@@ -80,15 +78,15 @@
                     <p class="advantage-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
 
-                <li>
+                <li class="advantage-item">
                     <h3 class="advantage-title-list">Пунктуальность</h2>
                     <p class="advantage-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="advantage-item">
                     <h3 class="advantage-title-list">Планирование</h3>
                     <p class="advantage-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="advantage-item">
                     <h3 class="advantage-title-list">Современные технологии</h3>
                     <p class="advantage-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -98,55 +96,76 @@
         </section>
 
         <!-- abaut -->
-        <section class="abaut section">
-            <h2 class="abaut-title">Чем мы занимаемся</h2>
+        <section class="about section">
+            <div class="container">
 
-            <ul class="abaut-list">
-                <li class="abaut-item">
+            <h2 class="about-title">Чем мы занимаемся</h2>
+
+            <ul class="about-list">
+                <li class="about-item">
                     <img src="./img/box1.jpg" alt="Разработчик пишет код" width="370" height="294">
                 </li>
-                <li>
+                <li class="about-item">
                     <img src="./img/box2.jpg" alt="Разработчик проверяет макет на телефоне" width="370" height="294">
                 </li>
-                <li>
+                <li class="about-item">
                     <img src="./img/box3.jpg" alt="Дизайнер выбырает палитру" width="370" height="294">
                 </li>
             </ul>
+
+            </div>
         </section>
 
         <!--TEAM-->
         <section class="team section">
+            <div class="container">
 
             <h2 class="team-title">Наша команда</h2>
+                
+            <div class="team-container">
             <ul class="team-list">
                 <li class="team-item">
                     <img  class="team-img" src="./img/Igor.jpg" alt="Сотрудник Игорь Демьяненко" width="270" height="260">
+                   
+                    <div class="team-item-text">
                     <h3 class="team-img-title">Игорь Демьяненко</h3>
                     <p class="team-img-text" lang="en">Product Designer</p>
+                    </div>
                 </li>
             </ul>
             <ul class="team-list">
                 <li class="team-item">
                     <img class="team-img" src="./img/Olga.jpg" alt="Сотрудник Ольга Репина" width="270" height="260">
+                    
+                    <div class="team-item-text">
                     <h3 class="team-img-title">Ольга Репина</h3>
                     <p class="team-img-text" lang="en">Frontend Developer</p>
+                    </div>
                 </li>
             </ul>
             <ul class="team-list">
                 <li class="team-item">
                     <img class="team-img" src="./img/Nikolay.jpg" alt="Сотрудник Николай Тарасов" width="270" height="260">
+                   
+                    <div class="team-item-text">
                     <h3 class="team-img-title">Николай Тарасов</h3>
                     <p class="team-img-text" lang="en">Marketing</p>
+                    </div>
                 </li>
             </ul>
             <ul class="team-list">
                 <li class="team-item">
                     <img class="team-img" src="./img/Mihail.jpg" alt="Сотрудник Михаил Ермаков" width="270" height="260">
+                    
+                    <div class="team-item-text">
                     <h3 class="team-img-title">Михаил Ермаков</h3>
                     <p class="team-img-text" lang="en">UI Designer</p>
+                    </div>
                 </li>
             </ul>
-
+            </div>
+            
+        </div>
         </section>
 
     </main>
