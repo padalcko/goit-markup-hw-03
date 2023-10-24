@@ -11,16 +11,13 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WEBSTUDIO</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container main-header-container">
         <nav class="nav-menu">
           <a class="nav-logo" href="./index.html"
@@ -54,14 +51,18 @@
         </address>
       </div>
     </header>
+
     <main>
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="button" type="button">Order Service</button>
+        </div>
       </section>
-      <section>
+
+      <section class="about">
         <div class="container">
-          <h2>About</h2>
+          <h2 class="about-title">About</h2>
           <ul class="about-list">
             <li class="about-list-item">
               <h3 class="about-item-title">Strategy</h3>
@@ -94,6 +95,7 @@
           </ul>
         </div>
       </section>
+
       <section class="our-team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -153,6 +155,7 @@
           </ul>
         </div>
       </section>
+
       <section class="our-portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
