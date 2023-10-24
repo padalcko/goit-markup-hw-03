@@ -69,9 +69,7 @@ img {
     gap: 40px;
 }
 
-.nav-list-item {
-    padding: 24px 0;
-}
+
 
 .nav-logo {
     font-family: "Raleway", sans-serif;    
@@ -95,6 +93,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 .address {
     font-style: normal;
